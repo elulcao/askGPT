@@ -77,29 +77,6 @@ func captureText() (text string, err error) {
 	}
 }
 
-// drawTextNoNewLine helper function to draw text on the screen without interpreting new lines.
-// Returns the number of rows written.
-func drawTextNoNewLine(text string, x, y int) (rows int) {
-	width, _ := termbox.Size()
-	charsWritten := 0
-
-	for _, ch := range text {
-		if charsWritten >= width {
-			y++
-			x = 0
-			charsWritten = 0
-			rows++
-		}
-
-		termbox.SetCell(x, y, ch, termbox.ColorDefault, termbox.ColorDefault)
-
-		x++
-		charsWritten++
-	}
-
-	return rows
-}
-
 // drawText helper function to draw text on the screen. Returns the number of rows written.
 func drawText(text string, x, y int) (rows int) {
 	width, _ := termbox.Size()
