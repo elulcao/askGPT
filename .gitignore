@@ -1,0 +1,10 @@
+# Project
+**/vendor
+
+# App
+**/.askGPT.yaml
+**/.askGPT.db
+**/askGPT
+
+# VSCode
+.vscode/*
