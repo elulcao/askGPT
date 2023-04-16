@@ -1,4 +1,4 @@
-# Project Name
+# askGPT
 
 askGPT is a Golang client for the OpenAI GPT API. With askGPT, you can quickly and easily generate high-quality text and more with ease. Plus, with its simple and intuitive interface, you can start generating text in just a few lines of code.
 
