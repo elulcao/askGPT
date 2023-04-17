@@ -8,10 +8,8 @@
 <p
     align="center">
     <img
-        src="./assets/render1681693060990.gif"
-        alt="Demo 01 - localhost"
-        width="600"
-        height="400"
+        src=".assets/render.gif"
+        alt="askGPT"
     />
 </p>
 
