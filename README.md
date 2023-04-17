@@ -5,6 +5,18 @@
 
 ---
 
+<p
+    align="center">
+    <img
+        src="./assets/render1681693060990.gif"
+        alt="Demo 01 - localhost"
+        width="600"
+        height="400"
+    />
+</p>
+
+---
+
 `askGPT` is a Golang client for the `OpenAI` API. With `askGPT`, you can quickly and easily generate
 high-quality text and more with ease. Plus, with its simple and intuitive interface, you can start
 generating text in just a few lines of code.
