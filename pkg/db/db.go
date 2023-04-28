@@ -19,14 +19,14 @@ type MyDB struct {
 }
 
 // Init initializes the database connection. Returns a pointer to the database object and an error.
-func Init() (sdb *MyDB, err error) {
+func Init() (mydb *MyDB, err error) {
 	db, err := sql.Open("sqlite3", DB_PATH)
 	if err != nil {
 		return nil, err
 	}
 
 	//Create a new SDB object with the opened database
-	mydb := &MyDB{
+	mydb = &MyDB{
 		DB: db,
 	}
 
